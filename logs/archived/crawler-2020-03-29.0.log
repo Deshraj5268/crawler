@@ -1,0 +1,597 @@
+2020-03-29 17:25:12,491 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 10296 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 17:25:12,499 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 17:25:14,329 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 17:25:14,380 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 28ms. Found 0 JPA repository interfaces.
+2020-03-29 17:25:16,236 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 17:25:16,261 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:25:16,262 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 17:25:16,263 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 17:25:16,660 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 17:25:16,660 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3969 ms
+2020-03-29 17:25:17,175 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 17:25:17,614 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 17:25:18,169 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 17:25:18,605 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 17:25:18,836 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 17:25:18,902 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 17:25:21,176 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 17:25:21,207 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 17:25:21,238 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'controller': Unsatisfied dependency expressed through field 'crawlerService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'CrawlerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-29 17:25:21,238 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 17:25:21,238 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-03-29 17:25:21,254 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-03-29 17:25:21,270 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2020-03-29 17:25:21,316 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-29 17:25:21,543 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field crawlerService in raj.assignment.crawler.controller.Controller required a bean of type 'CrawlerService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'CrawlerService' in your configuration.
+
+2020-03-29 17:36:53,757 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 1932 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 17:36:53,757 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 17:36:56,258 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 17:36:56,411 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 128ms. Found 1 JPA repository interfaces.
+2020-03-29 17:36:58,022 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 17:36:58,038 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:36:58,053 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 17:36:58,053 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 17:36:58,343 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 17:36:58,344 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4431 ms
+2020-03-29 17:36:58,860 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 17:36:59,009 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 17:36:59,267 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 17:36:59,467 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 17:36:59,718 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 17:36:59,769 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 17:37:01,496 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 17:37:01,512 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 17:37:02,831 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 17:37:03,210 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 17:37:03,793 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:37:03,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 17:37:03,848 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 11.447 seconds (JVM running for 12.771)
+2020-03-29 17:44:55,221 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 17:44:55,222 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 17:44:55,250 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 27 ms
+2020-03-29 17:50:28,568 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 3436 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 17:50:28,590 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 17:50:32,094 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 17:50:32,363 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 229ms. Found 1 JPA repository interfaces.
+2020-03-29 17:50:33,804 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+2020-03-29 17:50:33,841 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-29 17:50:33,890 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at raj.assignment.crawler.CrawlerApplication.main(CrawlerApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:210)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 8 common frames omitted
+Caused by: java.lang.IllegalArgumentException: ContextPath must start with '/' and not end with '/'
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.checkContextPath(AbstractServletWebServerFactory.java:133)
+	at org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory.setContextPath(AbstractServletWebServerFactory.java:122)
+	at org.springframework.boot.context.properties.PropertyMapper$Source.to(PropertyMapper.java:316)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:54)
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer.customize(ServletWebServerFactoryCustomizer.java:35)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.lambda$postProcessBeforeInitialization$0(WebServerFactoryCustomizerBeanPostProcessor.java:72)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$null$0(LambdaSafe.java:287)
+	at org.springframework.boot.util.LambdaSafe$LambdaSafeCallback.invoke(LambdaSafe.java:159)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.lambda$invoke$1(LambdaSafe.java:286)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1080)
+	at org.springframework.boot.util.LambdaSafe$Callbacks.invoke(LambdaSafe.java:286)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:72)
+	at org.springframework.boot.web.server.WebServerFactoryCustomizerBeanPostProcessor.postProcessBeforeInitialization(WebServerFactoryCustomizerBeanPostProcessor.java:58)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 16 common frames omitted
+2020-03-29 17:51:18,044 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 3588 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 17:51:18,054 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 17:51:20,394 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 17:51:20,520 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 107ms. Found 1 JPA repository interfaces.
+2020-03-29 17:51:22,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 17:51:22,560 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:51:22,562 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 17:51:22,562 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 17:51:22,825 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 17:51:22,826 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4576 ms
+2020-03-29 17:51:23,479 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 17:51:23,653 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 17:51:23,966 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 17:51:24,212 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 17:51:24,526 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 17:51:24,578 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 17:51:26,361 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 17:51:26,380 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 17:51:27,633 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 17:51:27,989 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 17:51:28,559 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:51:28,619 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path '/crawler'
+2020-03-29 17:51:28,623 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 12.108 seconds (JVM running for 13.373)
+2020-03-29 17:51:47,288 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 3368 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 17:51:47,297 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 17:51:49,852 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 17:51:50,020 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 137ms. Found 1 JPA repository interfaces.
+2020-03-29 17:51:51,932 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 17:51:51,956 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:51:51,957 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 17:51:51,958 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 17:51:52,255 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 17:51:52,256 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4789 ms
+2020-03-29 17:51:52,844 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 17:51:52,983 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 17:51:53,274 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 17:51:53,671 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 17:51:53,990 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 17:51:54,036 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 17:51:55,995 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 17:51:56,011 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 17:51:57,159 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 17:51:57,616 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 17:51:58,143 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:51:58,207 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 17:51:58,216 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 12.478 seconds (JVM running for 13.82)
+2020-03-29 17:55:38,780 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 17:55:38,781 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 17:55:38,802 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 21 ms
+2020-03-29 17:58:26,638 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 11188 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 17:58:26,647 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 17:58:28,948 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 17:58:29,073 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 106ms. Found 1 JPA repository interfaces.
+2020-03-29 17:58:30,903 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 17:58:30,956 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:58:30,958 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 17:58:30,959 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 17:58:31,182 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 17:58:31,183 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4382 ms
+2020-03-29 17:58:31,837 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 17:58:32,018 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 17:58:32,303 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 17:58:32,542 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 17:58:32,780 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 17:58:32,828 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 17:58:34,669 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 17:58:34,682 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 17:58:36,266 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 17:58:36,923 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 17:58:37,640 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:58:37,715 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 17:58:37,722 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 12.546 seconds (JVM running for 13.875)
+2020-03-29 17:58:41,517 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 17:58:41,517 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 17:58:41,536 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 18 ms
+2020-03-29 17:59:45,327 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 11900 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 17:59:45,338 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 17:59:47,828 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 17:59:47,961 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108ms. Found 1 JPA repository interfaces.
+2020-03-29 17:59:49,547 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 17:59:49,592 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:59:49,594 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 17:59:49,594 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 17:59:49,805 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 17:59:49,806 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4316 ms
+2020-03-29 17:59:50,300 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 17:59:50,452 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 17:59:50,698 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 17:59:50,893 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 17:59:51,137 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 17:59:51,182 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 17:59:52,893 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 17:59:52,906 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 17:59:54,144 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 17:59:54,757 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 17:59:55,418 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 17:59:55,494 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 17:59:55,500 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 11.633 seconds (JVM running for 12.988)
+2020-03-29 18:00:03,865 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 18:00:03,866 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 18:00:03,886 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 20 ms
+2020-03-29 18:01:00,359 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 10900 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 18:01:00,369 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 18:01:03,350 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 18:01:03,481 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 110ms. Found 1 JPA repository interfaces.
+2020-03-29 18:01:05,260 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 18:01:05,306 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:01:05,308 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 18:01:05,308 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 18:01:05,537 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 18:01:05,538 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4977 ms
+2020-03-29 18:01:06,098 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 18:01:06,259 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 18:01:06,569 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 18:01:06,844 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 18:01:07,080 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 18:01:07,144 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 18:01:08,955 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 18:01:08,972 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 18:01:10,238 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 18:01:10,730 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:01:11,282 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:01:11,342 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 18:01:11,349 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 12.742 seconds (JVM running for 14.015)
+2020-03-29 18:01:23,260 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 18:01:23,260 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 18:01:23,278 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 17 ms
+2020-03-29 18:02:04,452 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 1836 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 18:02:04,463 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 18:02:07,030 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 18:02:07,232 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 176ms. Found 1 JPA repository interfaces.
+2020-03-29 18:02:08,882 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 18:02:08,900 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:02:08,901 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 18:02:08,902 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 18:02:09,110 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 18:02:09,111 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4472 ms
+2020-03-29 18:02:09,617 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 18:02:09,776 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 18:02:10,062 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 18:02:10,319 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 18:02:10,548 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 18:02:10,587 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 18:02:12,267 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 18:02:12,285 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 18:02:13,412 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 18:02:13,848 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:02:14,449 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:02:14,509 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 18:02:14,513 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 11.556 seconds (JVM running for 12.815)
+2020-03-29 18:02:20,404 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 18:02:20,404 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 18:02:20,425 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 21 ms
+2020-03-29 18:02:59,328 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 5444 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 18:02:59,336 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 18:03:01,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 18:03:01,982 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 117ms. Found 1 JPA repository interfaces.
+2020-03-29 18:03:03,611 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 18:03:03,634 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:03:03,636 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 18:03:03,636 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 18:03:03,857 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 18:03:03,858 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4320 ms
+2020-03-29 18:03:04,237 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 18:03:04,611 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 18:03:04,871 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 18:03:05,109 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 18:03:05,347 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 18:03:05,393 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 18:03:07,120 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 18:03:07,134 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 18:03:08,246 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 18:03:08,640 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:03:09,216 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:03:09,279 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 18:03:09,285 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 11.472 seconds (JVM running for 12.788)
+2020-03-29 18:03:13,540 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 18:03:13,541 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 18:03:13,561 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 20 ms
+2020-03-29 18:03:47,866 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 10244 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 18:03:47,875 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 18:03:50,324 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 18:03:50,447 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 103ms. Found 1 JPA repository interfaces.
+2020-03-29 18:03:52,662 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 18:03:52,692 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:03:52,694 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 18:03:52,695 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 18:03:53,034 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 18:03:53,036 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5005 ms
+2020-03-29 18:03:53,743 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 18:03:54,010 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 18:03:54,446 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 18:03:54,808 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 18:03:55,096 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 18:03:55,143 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 18:03:57,053 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 18:03:57,073 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 18:03:58,339 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 18:03:58,859 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 18:03:59,778 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 18:03:59,848 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 18:03:59,853 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 13.479 seconds (JVM running for 15.036)
+2020-03-29 18:04:03,973 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 18:04:03,973 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-03-29 18:04:03,995 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Completed initialization in 21 ms
+2020-03-29 21:15:08,145 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 7304 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 21:15:08,156 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 21:15:10,284 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 21:15:10,445 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 136ms. Found 1 JPA repository interfaces.
+2020-03-29 21:15:13,033 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 21:15:13,068 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 21:15:13,075 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 21:15:13,076 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 21:15:13,455 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 21:15:13,456 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5111 ms
+2020-03-29 21:15:14,510 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 21:15:14,681 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 21:15:15,007 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 21:15:15,366 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 21:15:15,852 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 21:15:15,948 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 21:15:18,438 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 21:15:18,460 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 21:15:19,989 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 21:15:20,502 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 21:15:21,197 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 21:15:21,276 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 21:15:21,283 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 15.935 seconds (JVM running for 19.571)
+2020-03-29 21:18:01,695 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 21:18:01,699 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 21:18:01,740 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 41 ms
+2020-03-29 23:13:55,289 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 12672 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:13:55,298 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:13:57,939 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:13:58,230 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 257ms. Found 1 JPA repository interfaces.
+2020-03-29 23:14:01,443 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:14:01,465 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:14:01,467 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:14:01,467 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:14:01,874 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:14:01,875 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6364 ms
+2020-03-29 23:14:03,001 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:14:03,285 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:14:03,773 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:14:04,187 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:14:04,573 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:14:04,647 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:14:07,803 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:14:07,826 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:14:10,361 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:15:16,852 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 10072 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:15:16,869 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:15:20,081 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:15:20,270 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 159ms. Found 1 JPA repository interfaces.
+2020-03-29 23:15:22,545 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:15:22,583 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:15:22,585 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:15:22,586 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:15:23,134 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:15:23,135 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6084 ms
+2020-03-29 23:15:24,759 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:15:24,939 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:15:25,268 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:15:25,665 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:15:25,974 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:15:26,028 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:15:28,103 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:15:28,125 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:15:29,697 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:15:30,224 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:15:30,995 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:15:31,074 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:15:31,079 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 15.999 seconds (JVM running for 17.506)
+2020-03-29 23:16:59,180 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:16:59,181 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-3] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:16:59,204 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-3] Completed initialization in 23 ms
+2020-03-29 23:16:59,389 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-3] baseUrl : india,depth :1 
+2020-03-29 23:17:22,804 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 11276 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:17:22,816 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:17:25,745 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:17:25,916 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 148ms. Found 1 JPA repository interfaces.
+2020-03-29 23:17:27,908 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:17:27,932 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:17:27,934 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:17:27,935 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:17:28,191 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:17:28,192 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5012 ms
+2020-03-29 23:17:29,014 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:17:29,180 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:17:29,574 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:17:29,916 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:17:30,444 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:17:30,537 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:17:33,124 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:17:33,145 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:17:34,642 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:17:35,817 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:17:36,979 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:17:37,065 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:17:37,073 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 16.274 seconds (JVM running for 17.865)
+2020-03-29 23:17:48,440 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:17:48,443 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:17:48,467 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 24 ms
+2020-03-29 23:17:52,621 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-1] baseUrl : india,depth :1 
+2020-03-29 23:18:18,312 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s766ms607µs800ns).
+2020-03-29 23:18:37,301 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-3] baseUrl : india,depth :1 
+2020-03-29 23:21:06,432 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 11244 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:21:06,445 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:21:09,498 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:21:09,657 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 136ms. Found 1 JPA repository interfaces.
+2020-03-29 23:21:11,719 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:21:11,745 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:21:11,746 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:21:11,747 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:21:12,047 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:21:12,048 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5257 ms
+2020-03-29 23:21:12,544 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:21:12,839 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:21:13,122 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:21:13,403 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:21:13,675 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:21:13,724 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:21:15,659 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:21:15,682 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:21:17,009 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:21:17,429 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:21:18,011 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:21:18,076 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:21:18,081 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 13.544 seconds (JVM running for 15.092)
+2020-03-29 23:21:58,432 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:21:58,433 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:21:58,455 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 21 ms
+2020-03-29 23:26:05,880 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m22s101ms646µs300ns).
+2020-03-29 23:26:05,880 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-1] baseUrl : india,depth :1 
+2020-03-29 23:27:23,691 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s534ms326µs500ns).
+2020-03-29 23:27:53,995 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 12356 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:27:54,010 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:27:56,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:27:56,716 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 129ms. Found 1 JPA repository interfaces.
+2020-03-29 23:27:58,862 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:27:58,895 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:27:58,898 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:27:58,899 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:27:59,232 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:27:59,233 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4911 ms
+2020-03-29 23:27:59,919 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:28:00,117 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:28:00,501 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:28:00,905 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:28:01,206 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:28:01,254 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:28:03,324 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:28:03,348 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:28:04,760 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:28:05,198 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:28:05,714 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:28:05,779 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:28:05,784 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 13.774 seconds (JVM running for 15.546)
+2020-03-29 23:31:28,516 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:31:28,516 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:31:28,542 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Completed initialization in 25 ms
+2020-03-29 23:31:46,222 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-2] baseUrl : india,depth :1 
+2020-03-29 23:35:41,518 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s883ms878µs300ns).
+2020-03-29 23:37:28,874 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 12388 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:37:28,884 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:37:31,803 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:37:32,102 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 238ms. Found 1 JPA repository interfaces.
+2020-03-29 23:37:34,093 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:37:34,115 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:37:34,117 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:37:34,118 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:37:34,379 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:37:34,380 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5283 ms
+2020-03-29 23:37:35,000 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:37:35,188 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:37:35,555 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:37:35,833 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:37:36,127 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:37:36,181 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:37:38,219 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:37:38,239 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:37:39,493 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:37:39,930 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:37:40,573 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:37:40,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:37:40,654 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 13.468 seconds (JVM running for 14.963)
+2020-03-29 23:38:07,791 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:38:07,792 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:38:07,817 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 24 ms
+2020-03-29 23:38:17,288 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-1] baseUrl : india,depth :1 
+2020-03-29 23:39:28,802 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s568ms764µs300ns).
+2020-03-29 23:41:27,796 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m27s312ms279µs).
+2020-03-29 23:44:21,182 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 10504 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:44:21,194 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:44:23,818 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:44:23,969 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 129ms. Found 1 JPA repository interfaces.
+2020-03-29 23:44:26,030 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:44:26,051 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:44:26,053 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:44:26,054 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:44:26,334 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:44:26,335 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4958 ms
+2020-03-29 23:44:26,981 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:44:27,118 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:44:27,411 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:44:27,693 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:44:28,007 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:44:28,063 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:44:30,118 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:44:30,139 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:44:31,333 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:44:31,900 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:44:32,525 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:44:32,662 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:44:32,667 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 13.187 seconds (JVM running for 14.579)
+2020-03-29 23:46:21,256 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:46:21,257 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:46:21,285 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-1] Completed initialization in 27 ms
+2020-03-29 23:46:24,598 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-1] baseUrl : india,depth :1 
+2020-03-29 23:46:48,658 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s546ms266µs600ns).
+2020-03-29 23:51:38,196 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-7] baseUrl : india,depth :1 
+2020-03-29 23:52:38,859 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-9] baseUrl : india,depth :1 
+2020-03-29 23:54:24,548 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s990ms123µs300ns).
+2020-03-29 23:55:36,957 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-10] baseUrl : india,depth :1 
+2020-03-29 23:56:25,133 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 12916 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:56:25,143 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:56:27,986 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:56:28,178 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 171ms. Found 1 JPA repository interfaces.
+2020-03-29 23:56:30,169 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:56:30,190 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:56:30,192 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:56:30,192 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:56:30,451 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:56:30,452 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5016 ms
+2020-03-29 23:56:31,053 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:56:31,200 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:56:31,488 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:56:31,834 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:56:32,113 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:56:32,164 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:56:34,240 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:56:34,258 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:56:35,589 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:56:35,998 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:56:36,567 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:56:36,633 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:56:36,638 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 13.239 seconds (JVM running for 14.764)
+2020-03-29 23:56:42,203 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:56:42,204 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:56:42,227 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Completed initialization in 22 ms
+2020-03-29 23:56:45,708 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-2] baseUrl : india,depth :2 
+2020-03-29 23:58:46,215 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrawlerApplication on Raj with PID 2428 (G:\assignments\crawler\Application\crawler\target\classes started by cyber in G:\assignments\crawler\Application\crawler)
+2020-03-29 23:58:46,228 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-29 23:58:48,869 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-29 23:58:49,029 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 139ms. Found 1 JPA repository interfaces.
+2020-03-29 23:58:51,055 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8814 (http)
+2020-03-29 23:58:51,075 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:58:51,076 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-29 23:58:51,077 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-29 23:58:51,325 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-29 23:58:51,326 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4810 ms
+2020-03-29 23:58:51,946 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-29 23:58:52,120 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-29 23:58:52,470 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-29 23:58:52,798 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-29 23:58:53,102 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-29 23:58:53,168 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-29 23:58:55,229 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-29 23:58:55,252 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-29 23:58:56,607 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-29 23:58:57,000 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 23:58:57,585 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8814"]
+2020-03-29 23:58:57,649 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8814 (http) with context path ''
+2020-03-29 23:58:57,654 INFO org.springframework.boot.StartupInfoLogger [main] Started CrawlerApplication in 13.197 seconds (JVM running for 14.579)
+2020-03-29 23:59:09,324 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8814-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-29 23:59:09,325 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-03-29 23:59:09,348 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8814-exec-2] Completed initialization in 22 ms
+2020-03-29 23:59:13,585 ERROR raj.assignment.crawler.controller.Controller [http-nio-8814-exec-2] baseUrl : india,depth :2 
