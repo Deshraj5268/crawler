@@ -1,0 +1,51 @@
+Post : http://localhost:8814/api/crawler/v1/search
+
+Accept:application/json
+Content-Type:application/json
+
+
+Input :
+
+ {
+    "baseUrl": "/india",
+    "depth": 2
+}
+
+response :
+
+{
+    "total_links": 6,
+    "total_images": 2,
+    "details": [
+        {
+            "pageTitle": "haryana",
+            "pageLink": "/india/haryana",
+            "imageCount": 1
+        },
+        {
+            "pageTitle": "madhyapradesh",
+            "pageLink": "/india/madhyapradesh",
+            "imageCount": 1
+        },
+        {
+            "pageTitle": "rajisthan",
+            "pageLink": "/india/rajisthan",
+            "imageCount": 0
+        },
+        {
+            "pageTitle": "uttar pradesh",
+            "pageLink": "/india/uttar pradesh",
+            "imageCount": 0
+        },
+        {
+            "pageTitle": "andhrapradesh",
+            "pageLink": "/india/andhrapradesh",
+            "imageCount": 0
+        },
+        {
+            "pageTitle": "gurgaon",
+            "pageLink": "/india/haryana/gurgaon/",
+            "imageCount": 0
+        }
+    ]
+}
